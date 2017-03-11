@@ -1,0 +1,25 @@
+<div class="contact">
+    <div class="container">
+        <h2><span>Afroleadership - </span>Contact us for any enquiries</h2>
+        <ul>
+            <li>
+                <a href="tel:{{ settings.ossuo.GlobalSettings.contact_telephone }}">
+                    {% include "ossuo/includes/svg/phone.svg" %}
+                    <span>{{ settings.ossuo.GlobalSettings.contact_telephone }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:{{ settings.ossuo.GlobalSettings.contact_email }}">
+                    {% include "ossuo/includes/svg/envelope.svg" %}
+                    <span>{{ settings.ossuo.GlobalSettings.contact_email }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/{{ settings.ossuo.GlobalSettings.contact_twitter }}">
+                    {% include "ossuo/includes/svg/twitter.svg" %}
+                    <span>@{{ settings.ossuo.GlobalSettings.contact_twitter }}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
